@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    color:rgb(27, 13, 153);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://media.istockphoto.com/id/1420088446/vector/vector-realistic-hole-torn-in-paper-with-shadows-isolated-on-transparent-background.jpg?s=1024x1024&w=is&k=20&c=ctHHmfjCPkg767wQLhmZ9q04liQGmNFrG0vNVo2ytYc=)
+}
+.loginpage{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+   backdrop-filter: blur(30px);
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+input{
+    padding: 10px;
+}
+button{
+    font-size: 25px;
+}
+.div{
+    font-size: 30px;
+}
+footer{
+    display: flex;
+}
+.footer-input{
+    display: flex;
+    justify-content: space-around;
+    text-size-adjust: 25px;
+}
