@@ -5,19 +5,22 @@
 
 
 body{
-    color:rgb(27, 13, 153);
+    color:rgb(211, 226, 213);
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://media.istockphoto.com/id/1420088446/vector/vector-realistic-hole-torn-in-paper-with-shadows-isolated-on-transparent-background.jpg?s=1024x1024&w=is&k=20&c=ctHHmfjCPkg767wQLhmZ9q04liQGmNFrG0vNVo2ytYc=)
+    background : url(https://th.bing.com/th/id/OIP.UlaWj-vrmrz1zNsSi_KEmAHaEo?pid=ImgDet&w=60&h=60&c=7&rs=1);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .loginpage{
     border: 2px solid black;
     width: 300px;
     height: 300px;
    backdrop-filter: blur(30px);
+   
 
 }
 .input{
@@ -27,6 +30,7 @@ body{
 h1{
     text-align: center;
     font-size: 40px;
+    margin-bottom: 70px;
 
 }
 input{
@@ -34,6 +38,9 @@ input{
 }
 button{
     font-size: 25px;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 .div{
     font-size: 30px;
@@ -45,4 +52,15 @@ footer{
     display: flex;
     justify-content: space-around;
     text-size-adjust: 25px;
+}
+.Signup-Container{
+    border: 10 solid red;
+}
+span{
+     
+    margin-top: 200px;
+}
+
+.First-input{
+    margin-right: 200px;
 }
